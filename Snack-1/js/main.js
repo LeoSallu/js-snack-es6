@@ -57,4 +57,4 @@ const tavoloVip = [
 
 //For each
 
-tavoloVip.forEach((element,index,array) => {console.log(index,element)});
+tavoloVip.forEach((element,index,array) => {console.log(`Tavolo: ${element["Nome del Tavolo"]} - ${element["Nome Ospite"]} - Posto n°${element["Posto Occupato"]}`)});
