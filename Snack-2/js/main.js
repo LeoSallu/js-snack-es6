@@ -54,3 +54,7 @@ const over70 = studenti.filter((studenti)=>{
 });
 console.log({over70});
 //Secondo Ciclo Filter
+const over70Id120 = studenti.filter((studenti)=>{
+    return studenti.Voti >70 && studenti.Id>120;
+})
+console.log(over70Id120);
