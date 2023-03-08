@@ -4,53 +4,57 @@
 
 const tavoloVip = [
     {
-        nomeDelTavolo:1,
-        nomeDelOspite:'Brad Pitt',
-        postoOccupato:3
+        'Nome del Tavolo':'Artisti',
+        'Nome Ospite':'Brad Pitt',
+        'Posto Occupato':3
     },
     {
-        nomeDelTavolo:1,
-        nomeDelOspite:'Johnny Depp',
-        postoOccupato:1
+        'Nome del Tavolo':'Artisti',
+        'Nome Ospite':'Johnny Depp',
+        'Posto Occupato':1
     },
     {
-        nomeDelTavolo:1,
-        nomeDelOspite:'Lady Gaga',
-        postoOccupato:2
+        'Nome del Tavolo':'Artisti',
+        'Nome Ospite':'Lady Gaga',
+        'Posto Occupato':2
     },
     {
-        nomeDelTavolo:2,
-        nomeDelOspite:'George Clooney',
-        postoOccupato:3
+        'Nome del Tavolo':'Famiglia Clooney',
+        'Nome Ospite':'George Clooney',
+        'Posto Occupato':3
     },
     {
-        nomeDelTavolo:2,
-        nomeDelOspite:'Amal Clooney',
-        postoOccupato:2
+        'Nome del Tavolo':'Famiglia Clooney',
+        'Nome Ospite':'Amal Clooney',
+        'Posto Occupato':2
     },
     {
-        nomeDelTavolo:3,
-        nomeDelOspite:'Cristiano Ronaldo',
-        postoOccupato:1
+        'Nome del Tavolo':'Influencer',
+        'Nome Ospite':'Cristiano Ronaldo',
+        'Posto Occupato':1
     },
     {
-        nomeDelTavolo:3,
-        nomeDelOspite:'Georgina Rodriguez',
-        postoOccupato:2
+        'Nome del Tavolo':'Influencer',
+        'Nome Ospite':'Georgina Rodriguez',
+        'Posto Occupato':2
     },
     {
-        nomeDelTavolo:3,
-        nomeDelOspite:'Chiara Ferragni',
-        postoOccupato:3
+        'Nome del Tavolo':'Influencer',
+        'Nome Ospite':'Chiara Ferragni',
+        'Posto Occupato':3
     },
     {
-        nomeDelTavolo:3,
-        nomeDelOspite:'Fedez',
-        postoOccupato:4
+        'Nome del Tavolo':'Influencer',
+        'Nome Ospite':'Fedez',
+        'Posto Occupato':4
     },
     {
-        nomeDelTavolo:1,
-        nomeDelOspite:'Maneskin',
-        postoOccupato:4
+        'Nome del Tavolo':'Artisti',
+        'Nome Ospite':'Maneskin',
+        'Posto Occupato':4
     }
 ]
+
+//For each
+
+tavoloVip.forEach((element,index,array) => {console.log(index,element)});
