@@ -44,6 +44,13 @@ const studenti = [
         Nome:'FRANCESCA DA POLENTA',
         Voti: 84
 
-    },
-
+    }
 ];
+console.log(studenti);
+
+//Primo Ciclo Filter
+const over70 = studenti.filter((studenti)=>{
+    return studenti.Voti > 70;
+});
+console.log({over70});
+//Secondo Ciclo Filter
