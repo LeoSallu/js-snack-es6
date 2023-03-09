@@ -46,5 +46,5 @@ const pesi = bici.map((element)=>{
     const {peso}=element; 
     return peso; 
 }); 
-const pesoMinore = Math.min(pesi);
+const pesoMinore = Math.min(...pesi);
 console.log(pesoMinore);
