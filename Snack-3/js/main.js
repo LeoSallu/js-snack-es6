@@ -42,9 +42,9 @@ bici.forEach(element => {
     const {nome,peso} = element;
     console.log(nome, peso+' kg');
 });
-const pesoBici = bici.filter((element)=>{
-    const {peso} = element;
-    console.log(peso);
-    console.log(Math.min(element));
-    return (element);
-});
+const pesi = bici.map((element)=>{
+    const {peso}=element; 
+    return peso; 
+}); 
+const pesoMinore = Math.min(pesi);
+console.log(pesoMinore);
