@@ -10,34 +10,41 @@ const bici = [
     {
         nome: 'Franco',
         colore: 'Rosso',
-        peso: randomWeight(5,30)+' Kg',
+        peso: randomWeight(2,10),
         categoria: 'Da corsa'
     },
     {
         nome: 'Pippo',
         colore: 'Bianca',
-        peso: randomWeight(5,30)+' Kg',
+        peso: randomWeight(10,20),
         categoria: 'Mountain Bike'
     },
     {
         nome: 'Giuseppe',
         colore: 'Blu',
-        peso: randomWeight(5,30)+' Kg',
+        peso: randomWeight(7,15),
         categoria: 'City'
     },
     {
         nome: 'Mario',
         colore: 'Verde',
-        peso: randomWeight(5,30)+' Kg',
+        peso: randomWeight(2,10),
         categoria: 'Da corsa'
     },
     {
         nome: 'Paolo',
         colore: 'Rosa',
-        peso: randomWeight(5,30)+' Kg',
+        peso: randomWeight(7,15),
         categoria: 'City'
     },
 ]
 bici.forEach(element => {
-    console.log(element);
+    const {nome,peso} = element;
+    console.log(nome, peso+' kg');
+});
+const pesoBici = bici.filter((element)=>{
+    const {peso} = element;
+    console.log(peso);
+    console.log(Math.min(element));
+    return (element);
 });
